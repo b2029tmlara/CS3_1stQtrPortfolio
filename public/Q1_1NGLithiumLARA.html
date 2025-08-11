@@ -1,8 +1,17 @@
-<script>
-let age = 14 // my age
-let maxAge = 100 // my maximum age 
-let numPerDay = 3 // snacks I eat per day
-totalRequired = (numPerDay * 365) * (maxAge - age) //  average amount you I may consume for the rest of your life
 
-"You will need NN to last you until the ripe old age of X".
+
+<script>
+let age = window.prompt("Enter your age: ")
+let maxAge = window.prompt("You will live until the ripe old age of: ")
+let numPerDay = window.prompt("Number of snacks daily: ")
+
+let sure = confirm("Sure of your numbers?")
+if (sure) { let totalRequired = (numPerDay * 365) * (maxAge - age);
+document.write("You will need " + totalRequired + ", to last you until the ripe old age of ", maxAge);
+window.alert(`You will need", ${totalRequired}, "to last you until the ripe old age of", ${maxAge}`);
+console.log("You will need ", totalRequired , " to last you until the ripe old age of ", maxAge);
+}
+else { window.alert("Please click run again")
+    
+}
 </script>
