@@ -16,3 +16,39 @@ else { window.alert("Please click run again")
 
 }
 </script>
+
+<html> 
+<body> 
+    <h1> Feed Me My Snacks! </h1>  
+    <label> Enter your age: 
+    <input id="age">
+    </label> 
+    <label> Enter your max age: 
+        <input id="maxAge">
+    </label>
+  
+    </label>
+
+    <label> Enter your number of snacks: 
+            <input id="numPerDay">
+    </label>
+    <button onclick="replyMsg()"> Accept Input </button>
+    <p> You will need : <span id="replyMsg"> to last you until the ripe old age </span> </p>
+    
+
+   
+    <script>  
+        function replyMsg() {    
+            let aInput = document.getElementById("age").value      
+            let bInput = document.getElementById("maxAge")
+            let cInput = document.getElementById("numPerDay")
+            let totalRequired = (Number(numPerDay) * 365) * (Number(maxAge) - Number(age))
+
+            document.getElementById("age").innterHTML  = <b> ${aInput} </b>
+            document.getElementById("maxAge").innterHTML  = <b> ${bInput} </b>
+            document.getElementById("numPerDay").innterHTML  = <b> ${cInput} </b>
+        }
+    </script>
+
+</body>
+</html>
