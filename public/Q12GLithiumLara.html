@@ -2,13 +2,36 @@
 <html>
 <body>
 
-        <h2> Q1 2nd Graded Exercise submitted by Lithium </h2>
-        
+<label> Meal Price:
+    <input id="mp" type="number"> </label> </br>
+
+<label> Tip:
+    <input id="tip" type="number"></label> </br>
+
+<label> Service Charge:
+    <input id="sc" type="number"> </label>
+
+<p><button onclick="totalMeal()"> Accept Input </button></p> </br>
+<p> Total Meal: <span id="output"> </span></p>
+
 <script>
-    function totalMeal()
-    
-    
+
+   function totalMeal() {
+     let mp = parseFloat(document.getElementById("mp").value);
+     let tip = parseFloat(document.getElementById("tip").value);
+     let sc = parseFloat(document.getElementById("sc").value);
+     let totalCost = mp + tip + (sc / 10 * mp);
+
+if (mp && tip && sc) {
+      document.getElementById("output").innerHTML = `The total cost will be: ${totalCost.toFixed(2)}`;
+
+     } 
+else {
+           document.getElementById("output").innerHTML = "Please fill in all indicated fields.";
+     }
+   }
+
 </script>
 
 </body>
-</html> 
+</html>
