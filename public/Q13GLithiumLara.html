@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 <body>
@@ -16,30 +17,38 @@
 <button onclick="checkIt()"> <label> Check It </label> </button>
 <p> Result: <span id="result"> </span> </p>
 
-    <script>
+
+
+<script>
 
 var dNumber = Math.floor(Math.random() * 100) + 1; 
-// generates a number from 1  to 100 when the page loads
 
-function checkIt() {
- 
-		let guess = Number(document.getElementbyId("guess").value);
+   function checkIt() {
+     let gs = parseFloat(document.getElementById("guess").value);    
+
+			if (gs > dNumber) {
+      		document.getElementById("result").innerHTML = `Lower`;} 
+
+			if (gs < dNumber) {
+      		document.getElementById("result").innerHTML = `Higher`;}
+			
+			if (gs == dNumber)
+				document.getElementById("result").innerHTML = `You are correct!`;} 
 		
-	if (guess == dNumber) {
-		document.getElementbyId("guess").innerHTML = "You are correct!"
-		document.getElementbyId("result").innerHTML = "You are correct!"}
 
-	if (guess > dNumber){
-	   document.getElementbyId("guess").innerHTML = "Lower"
-      document.getElementbyId("result").innerHTML = "Lower"}
+</script>
 
-	else {
-		document.getElementbyId("guess").innerHTML = "Higher"
-		document.getElementbyId("result").innerHTML = "Higher"}
-		
-		}
+<footer> <b> Output References: </b> </br>
+<p>    Lara, T.M., (2025). <i> Q1 1st Non-Graded Exercise: Variable Declaration v3. Philippine Science High School, </i> <a href="https://b2029tmlara.github.io/CS3_1stQtrPortfolio/public/Q1_1NGLithiumLARA.html"> 
+https://b2029tmlara.github.io/CS3_1stQtrPortfolio/public/Q1_1NGLithiumLARA.html </a> </p>
+
+<p>    Lara, T.M., (2025). <i> Q1 2nd Graded Exercise:  I/O Statements and Number Objects. Philippine Science High School, </i> <a href="https://b2029tmlara.github.io/CS3_1stQtrPortfolio/public/Q1_1NGLithiumLARA.html"> 
+https://b2029tmlara.github.io/CS3_1stQtrPortfolio/public/Q1_1NGLithiumLARA.html </a> </p>
+
+
+</footer>
     </script>
 
 </body>
 
-</htm
+</html>
