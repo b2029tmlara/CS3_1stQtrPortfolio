@@ -13,6 +13,8 @@
 5. **How to Do Well in a VPL Exam**: Having taken my first few sets of VPL exams, I need assistance on how I can actually use the features of the VPL in order to adjust my code for a better automatic grade
    
 #  Describe what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.
+I will essentially take it upon myself to pay more attention in CS3 meetings, practice on my own accord, and consult if needed. 
+
 # In the activities that were done in class, list at least two that you think were effective and at least two that you think not effective in helping you understand topics in our course and why? */
 ## Effective for Me:
 1. **Graded Exercises**: These allow me to fully practice the concepts discussed in class, and to find out any gaps in knowledge I may have prior to pivotaal assessments in the quarter.
