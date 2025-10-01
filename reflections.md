@@ -6,7 +6,7 @@
 5. **JS Syntax**: Having finished Q1 in CS3, I learned the basic syntax for JavaScript. This topic is applicable to all aspects of CS3 such as coding exercises, hence my mastery in it.
    
 #  List at least 5 topics that you know and can describe but needs further practice/discussion and why. The why should be per topic listed. 
-1. **Function Declaration**:
+1. **Function Declaration**: I need more discussion on how I can define functions and use them to my advantage when coding websites, as I often struggle in the logiv behind them and subsequently their overall application to my code.
 2. **For Loops**: I need more discussion on the application of for loops as this was my first time encountering it, and while I did the practice exercises and aced them, it is different from actual LT conditions wherein I have to code such structures under time pressure. 
 3. **While Loops**: I need more discussion on while loops as sometimes they typically involve loops inside them also, which also proved confusing to me, being a first-timer in taking up a full computer science class as a transferee. 
 4. **Do...While Loops**:I need further discussion on do...while loops as these were not fully discussed for me and lacked some examples as I am admittedly a student who needs a considerable amount of them in order to fully grasp a concept, esppecially for independent application. 
